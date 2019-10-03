@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void load(View view) {
+//        startActivity();
         Intent intent = new Intent();
         intent.setAction("org.alie.aliebinder.MyService");
         intent.setPackage("org.alie.aliebinder"); // 这里设置包名只是希望让指定的 app可以直接处理 一定程度上也是一种优化
